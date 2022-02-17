@@ -1,0 +1,35 @@
+GET user 1st input
+SET Num1 to user input
+GET user 2nd INPUT
+SET Num2 to 2nd input
+GET user 3rd INPUT
+SET Num3 to 3rd input
+
+DECLARE MIN_NUM, MAX_NUM, MIDDLE_NUM
+IF Num1 is less than Num2 and Num3
+	MIN_NUM = Num1
+	if Num2 is less than Num3
+	MIDDLE_NUM = Num2
+	MAX_NUM = Num3
+	Else
+	MIDDLE_NUM = Num3
+	MAX_NUM = Num2
+ELSE IF Num2 is less than Num1 and Num3
+	MIN_NUM = Num2
+	if Num1 is less than Num3
+	MIDDLE_NUM = Num1
+	MAX_NUM = Num3
+	Else
+	MIDDLE_NUM = Num3
+	MAX_NUM = Num1
+ELSE IF Num3 is less than Num1 and Num2
+	MIN_NUM = Num3
+	if Num1 is less than Num2
+	MIDDLE_NUM = Num1
+	MAX_NUM = Num2
+	Else
+	MIDDLE_NUM = Num2
+	MAX_NUM = Num1
+
+
+PRINT(Min_NUM, MIDDLE_NUM, MAX_NUM)
