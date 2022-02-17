@@ -1,0 +1,9 @@
+Accept the argument to represent n
+
+INSTATIATE SUM = 0
+For I=1 to n do
+   Sum=sum+I times I
+   INCREMENT I
+   IF I == N
+   BREAK
+Print Sum
